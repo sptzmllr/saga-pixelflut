@@ -14,7 +14,7 @@ LIB_NAME           = saga_pixelflut.so
 SAGA_ROOT          = /usr
 WX_ROOT			   = /usr/include/wx-3.1
 
-CXX_INCS           = -I"$(SAGA_ROOT)/include/saga/saga_core"
+CXX_INCS           = -I"$(SAGA_ROOT)/include/saga"
 CXX_DEFS           = -D_SAGA_LINUX -D_TYPEDEF_BYTE -D_TYPEDEF_WORD -D_SAGA_UNICODE
 CXX_FLGS           = -fPIC -DPIC -fopenmp
 
